@@ -1,10 +1,7 @@
 package Assignment_28
 
-import org.apache.spark.sql.{Dataset, SparkSession}
-import org.apache.spark.sql.types._
-import org.apache.spark.ml.clustering.KMeans
-import org.apache.spark.ml.feature.VectorAssembler
-import org.apache.spark.sql.functions._
+import org.apache.spark.sql.{SparkSession}
+
 
 object Assignment_28 {
   def main(args:Array[String]): Unit = {
